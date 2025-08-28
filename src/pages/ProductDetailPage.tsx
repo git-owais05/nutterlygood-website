@@ -20,7 +20,7 @@ const ProductDetailPage: React.FC = () => {
   const [quantity, setQuantity] = useState(1);
 
   useEffect(() => {
-    fetch("/src/assets/bestsellers.json")
+    fetch("/public/bestsellers.json")
       .then((res) => res.json())
       .then((data: Product[]) => {
         const found = data.find((p) => p.id === Number(id));

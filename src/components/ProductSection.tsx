@@ -50,7 +50,7 @@ export const ProductSection = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('/src/assets/bestsellers.json')
+    fetch('/public/bestsellers.json')
       .then(res => res.json())
       .then(data => setProducts(data));
   }, []);
