@@ -1,0 +1,8 @@
+/* App-specific styles are now handled by the design system in index.css */
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+}
