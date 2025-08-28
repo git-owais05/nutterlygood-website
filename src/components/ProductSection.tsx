@@ -14,7 +14,7 @@ const bestsellers = [
   {
     "id": 1,
     "name": "Premium Classic",
-    "image": "/src/assets/almonds-classic.jpg",
+    "image": "https://nutterlygood.odoo.com/web/image/product.product/8/image_512",
     "description": "Almonds are a true nutritional marvel, offering a rich tapestry of health benefits in every crunchy bite. These versatile nuts are an excellent source of Vitamin E, a potent antioxidant that helps protect your cells from damage, contributing to healthy skin and a robust immune system. Beyond their antioxidant prowess, almonds are packed with healthy monounsaturated fats, which are known to support heart health by helping to lower bad cholesterol levels. They also provide a significant amount of dietary fiber, aiding in digestion and promoting a feeling of fullness, which can be beneficial for weight management. Furthermore, almonds are a good source of magnesium, crucial for muscle and nerve function, blood sugar control, and blood pressure regulation, and protein, essential for building and repairing tissues. Enjoy them as a satisfying snack, sprinkle them over your yogurt or salad, or incorporate them into your baking for a delicious and nutritious boost.",
     "isBestseller": true,
     "price": 400,
@@ -25,7 +25,7 @@ const bestsellers = [
   {
     "id": 2,
     "name": "Premium Salted Almonds",
-    "image": "/src/assets/almonds-peri-peri.jpg",
+    "image": "https://nutterlygood.odoo.com/web/image/product.product/7/image_512",
 "description": "Pamper your taste buds with Premium Salted almonds Sometimes, simplicity is key, and our Almonds Salted deliver just that – a perfect balance of natural almond flavor with a touch of savory sea salt. These almonds are lightly salted to enhance their inherent nutty taste, making them an incredibly satisfying snack. Almonds are naturally packed with biotin, which is great for healthy hair and nails, and magnesium, which supports muscle and nerve function. The judicious use of sea salt highlights the natural sweetness of the almond without excessive sodium often found in other salted snacks. Our Salted Almonds offer a pure, unadulterated taste and a convenient way to fuel your body with essential nutrients.",
     "isBestseller": true,
     "price": 410,
@@ -47,7 +47,7 @@ const bestsellers = [
   {
     "id": 4,
     "name": "Smoked Almonds",
-    "image": "/src/assets/almonds-smoked.jpg",
+    "image": "https://nutterlygood.odoo.com/web/image/product.product/6/image_512",
     "description": "Premium Classic - Old is Gold Savor the deep, earthy, and aromatic flavor of our Almonds Smoked. These almonds are expertly smoked to impart a distinctive and rich taste that is both comforting and sophisticated. Beyond their unique flavor, smoked almonds offer the inherent nutritional benefits of plain almonds, including protein, healthy fats, and dietary fiber, all essential for sustained energy and digestive health. This smoking process is carefully managed to enhance the natural flavor without adding unhealthy additives. Unlike many heavily processed savory snacks, our Smoked Almonds offer a natural, wholesome, and flavorful alternative that stands out in the market.",
     "isBestseller": true,
     "price": 410,
@@ -78,7 +78,7 @@ const bestsellers = [
     "reviews": 156
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Coffee Mocha Almonds",
     "image": "https://nutterlygood.odoo.com/web/image/product.product/2/image_512",
     "description": "Premium Classic - Old is Gold Savor the deep, earthy, and aromatic flavor of our Almonds Smoked. These almonds are expertly smoked to impart a distinctive and rich taste that is both comforting and sophisticated. Beyond their unique flavor, smoked almonds offer the inherent nutritional benefits of plain almonds, including protein, healthy fats, and dietary fiber, all essential for sustained energy and digestive health. This smoking process is carefully managed to enhance the natural flavor without adding unhealthy additives. Unlike many heavily processed savory snacks, our Smoked Almonds offer a natural, wholesome, and flavorful alternative that stands out in the market.",
