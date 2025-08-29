@@ -169,7 +169,7 @@ const Contact: React.FC = () => {
 
             {/* Submit Button (mobile: before contact info, desktop: centered below both) */}
             {/* Submit Button */}
-            <div className="flex justify-end md:justify-center order-2 md:order-3 mt-6 w-full md:col-span-2">
+            <div className="flex justify-center md:justify-center order-2 md:order-3 mt-6 w-full md:col-span-2">
               <button
                 type="submit"
                 className="bg-green-900 text-white px-6 py-2 rounded-full "

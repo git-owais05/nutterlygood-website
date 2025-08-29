@@ -90,9 +90,9 @@ export const Footer = () => {
               <li>
                 <Link to="/category/dry-fruits" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200">Dry Fruits</Link>
               </li>
-              <li>
-                <Link to="/category/chips" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200">Chips</Link>
-              </li>
+              {/* <li> */}
+                {/* <Link to="/category/chips" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200">Chips</Link> */}
+              {/* </li> */}
               <li>
                 <Link to="/category/mixes" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200">Mixes</Link>
               </li>
