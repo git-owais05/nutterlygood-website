@@ -13,11 +13,11 @@ export const Footer = () => {
   const [showScroll, setShowScroll] = useState(false);
 
   useEffect(() => {
-    gsap.fromTo('.footer-content', 
-      { opacity: 0, y: 30 }, 
-      { 
-        opacity: 1, 
-        y: 0, 
+    gsap.fromTo('.footer-content',
+      { opacity: 0, y: 30 },
+      {
+        opacity: 1,
+        y: 0,
         duration: 0.8,
         stagger: 0.2,
         scrollTrigger: {
@@ -87,16 +87,21 @@ export const Footer = () => {
           <div className="footer-content space-y-6">
             <h3 className="text-xl font-semibold">Categories</h3>
             <ul className="space-y-3">
-              {['Premium Almonds', 'Cashews', 'Walnuts', 'Dried Fruits', 'Gift Boxes'].map((category) => (
-                <li key={category}>
-                  <a 
-                    href="#" 
-                    className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200"
-                  >
-                    {category}
-                  </a>
-                </li>
-              ))}
+              <li>
+                <Link to="/category/dry-fruits" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200">Dry Fruits</Link>
+              </li>
+              <li>
+                <Link to="/category/chips" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200">Chips</Link>
+              </li>
+              <li>
+                <Link to="/category/mixes" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200">Mixes</Link>
+              </li>
+              <li>
+                <Link to="/category/mouth-fresheners" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200">Mouth Fresheners</Link>
+              </li>
+              <li>
+                <Link to="/category/others" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200">Others</Link>
+              </li>
             </ul>
           </div>
 
@@ -106,18 +111,18 @@ export const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-secondary" />
-                <span className="text-primary-foreground/80">+91 99999 99999</span>
+                <span className="text-primary-foreground/80">+91 74162 85566</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-secondary" />
-                <span className="text-primary-foreground/80">hello@nutterlygood.com</span>
+                <span className="text-primary-foreground/80">contact@nutterlygood.com</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-secondary mt-1" />
                 <span className="text-primary-foreground/80">
-                  123-321 Empover, Street 2,<br />
-                  Madhaput,<br />
-                  Hyderabad, India 500081
+                  CS-09, Etna Block, Rajapushpa Atria<br/>
+                  Golden Mile Road, Kokapet,<br/>
+                  Hyderabad, Telangana, 500075
                 </span>
               </div>
             </div>
@@ -147,7 +152,7 @@ export const Footer = () => {
         {showScroll && (
           <button
             onClick={scrollToTop}
-            className="fixed bottom-8 right-8 z-50 bg-secondary text-green-900 font-bold px-4 py-2 rounded-full shadow-lg hover:bg-primary-foreground/50 transition-all duration-300"
+            className="fixed bottom-5 right-4 z-50 bg-secondary text-green-900 font-bold px-4 py-2 rounded-full shadow-lg hover:bg-primary-foreground/50 transition-all duration-300"
             aria-label="Scroll to top"
           >
             ↑

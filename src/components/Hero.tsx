@@ -99,6 +99,7 @@ export const Hero = () => {
               <Button 
                 size="lg" 
                 className="bg-secondary hover:bg-secondary-dark text-secondary-foreground font-semibold px-8 py-3 rounded-lg hover:scale-105 transition-all duration-200 shadow-lg group"
+                onClick={() => window.location.href = '/products'}
               >
                 Start Now
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-200" />
