@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Welcome to your Empover 
 
 ## Project info
 
@@ -8,11 +8,9 @@
 
 There are several ways of editing your application.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/d895580f-7fc2-4d18-8a89-0afaa2951805) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
+**Use VS Code**
+ 
+Shaik Owais Ullah Siddiqui 
 
 **Use your preferred IDE**
 
